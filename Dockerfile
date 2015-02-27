@@ -2,7 +2,7 @@ FROM debian:stable
 
 RUN apt-get update && apt-get install -y --no-install-recommends procps openjdk-7-jre-headless tar curl && apt-get autoremove -y && apt-get clean
 
-ENV FABRIC8_DISTRO_VERSION 1.2.0.Beta3
+ENV FABRIC8_DISTRO_VERSION 1.2.0.Beta4
 ENV JAVA_HOME /usr/lib/jvm/java-1.7.0-openjdk-amd64
 
 # create the fabric8 user and group
