@@ -12,7 +12,7 @@ echo Connecting to ZooKeeper:       $FABRIC8_ZOOKEEPER_URL
 echo Environment:                   $FABRIC8_FABRIC_ENVIRONMENT
 echo Using bindaddress:             $FABRIC8_BINDADDRESS
 
-echo "admin=${ADMIN_USERNAME},${ADMIN_PASSWORD}" >> /opt/fabric8/etc/users.properties
+#echo "\nadmin=${ADMIN_USERNAME},${ADMIN_PASSWORD}" >> /opt/fabric8/etc/users.properties
 
 # Use exec to replace shell with process to ensure signals get handled correctly
 exec /opt/fabric8/bin/fabric8 server
